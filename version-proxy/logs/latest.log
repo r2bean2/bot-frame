@@ -1,0 +1,52 @@
+[22:11:30] [main/INFO] (ViaProxy) Initializing ViaProxy GUI v3.4.12 (git-ViaProxy-3.4.12:16c9b7b) (Injected using Launcher Agent)...
+[22:11:30] [main/INFO] (ViaProxy) Using java version: OpenJDK 64-Bit Server VM 25.0.3 (Ubuntu) on Linux
+[22:11:30] [main/INFO] (ViaProxy) Available memory (bytes): 8124366848
+[22:11:30] [main/INFO] (ViaProxy) Working directory: /home/dean/projects/bot-net/version-proxy
+[22:11:31] [Via-Mappingloader-1/INFO] (ViaVersion) Loading block connection mappings ...
+[22:11:31] [main/INFO] (ViaBackwards) Loading translations...
+[22:11:31] [main/INFO] (ViaBackwards) Registering protocols...
+[22:11:31] [main/INFO] (ViaRewind) Registering protocols...
+[22:11:32] [main/INFO] (ViaBedrock) Started resource pack HTTP server on http://127.0.0.1:36723/
+[22:11:32] [main/INFO] (ViaVersion) ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
+[22:11:32] [main/INFO] (ViaVersion) Highest supported version by the proxy: 26.2 (776)
+[22:11:32] [Via Async Task 1/INFO] (ViaVersion) You are running a development version of the plugin, please report any bugs to GitHub.
+[22:11:32] [main/INFO] (ViaProxy) ViaProxy started successfully!
+[22:11:33] [Via Async Scheduler 0/INFO] (ViaVersion) Finished mapping loading, shutting down loader executor.
+[22:12:59] [Thread-3/INFO] (ViaProxy) Starting proxy server
+[22:12:59] [Thread-3/INFO] (ViaProxy) Binding proxy server to 0.0.0.0:25568
+[22:13:52] [ForkJoinPool.commonPool-worker-2/INFO] (ViaProxy) [CONNECT] (127.0.0.1:35634 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
+[22:13:52] [Netty EPOLL Server Child IO #0/INFO] (ViaProxy) [AUTH] (127.0.0.1:35634 | ConnectionTest) Filling player data
+[22:13:52] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SESSION] (127.0.0.1:35634 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[22:13:52] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SESSION] (127.0.0.1:35634 | ConnectionTest) Configuration finished! Switching to PLAY state
+[22:14:52] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SERVER DISCONNECT] (127.0.0.1:35634 | ConnectionTest) [0m[38;2;255;85;85mAuthentication time has expired.[0m
+[22:14:53] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:35634 | ConnectionTest) Connection closed
+[22:16:35] [ForkJoinPool.commonPool-worker-5/INFO] (ViaProxy) [CONNECT] (127.0.0.1:55284 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
+[22:16:35] [Netty EPOLL Server Child IO #1/INFO] (ViaProxy) [AUTH] (127.0.0.1:55284 | ConnectionTest) Filling player data
+[22:16:35] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [SESSION] (127.0.0.1:55284 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[22:16:35] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [SESSION] (127.0.0.1:55284 | ConnectionTest) Configuration finished! Switching to PLAY state
+[22:16:47] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:55284 | ConnectionTest) Connection closed
+[22:17:57] [ForkJoinPool.commonPool-worker-7/INFO] (ViaProxy) [CONNECT] (127.0.0.1:32798 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
+[22:17:57] [Netty EPOLL Server Child IO #2/INFO] (ViaProxy) [AUTH] (127.0.0.1:32798 | ConnectionTest) Filling player data
+[22:17:57] [Netty EPOLL Client IO #2/INFO] (ViaProxy) [SESSION] (127.0.0.1:32798 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[22:17:57] [Netty EPOLL Client IO #2/INFO] (ViaProxy) [SESSION] (127.0.0.1:32798 | ConnectionTest) Configuration finished! Switching to PLAY state
+[22:18:07] [Netty EPOLL Client IO #2/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:32798 | ConnectionTest) Connection closed
+[22:20:40] [ForkJoinPool.commonPool-worker-9/INFO] (ViaProxy) [CONNECT] (127.0.0.1:56580 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
+[22:20:40] [Netty EPOLL Server Child IO #3/INFO] (ViaProxy) [AUTH] (127.0.0.1:56580 | ConnectionTest) Filling player data
+[22:20:40] [Netty EPOLL Client IO #3/INFO] (ViaProxy) [SESSION] (127.0.0.1:56580 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[22:20:40] [Netty EPOLL Client IO #3/INFO] (ViaProxy) [SESSION] (127.0.0.1:56580 | ConnectionTest) Configuration finished! Switching to PLAY state
+[22:20:50] [Netty EPOLL Client IO #3/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:56580 | ConnectionTest) Connection closed
+[22:27:24] [ForkJoinPool.commonPool-worker-11/INFO] (ViaProxy) [CONNECT] (127.0.0.1:50248 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
+[22:27:24] [Netty EPOLL Server Child IO #4/INFO] (ViaProxy) [AUTH] (127.0.0.1:50248 | ConnectionTest) Filling player data
+[22:27:24] [Netty EPOLL Client IO #4/INFO] (ViaProxy) [SESSION] (127.0.0.1:50248 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[22:27:24] [Netty EPOLL Client IO #4/INFO] (ViaProxy) [SESSION] (127.0.0.1:50248 | ConnectionTest) Configuration finished! Switching to PLAY state
+[22:27:40] [Netty EPOLL Client IO #4/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:50248 | ConnectionTest) Connection closed
+[22:29:50] [ForkJoinPool.commonPool-worker-13/INFO] (ViaProxy) [CONNECT] (127.0.0.1:56334 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
+[22:29:50] [Netty EPOLL Server Child IO #5/INFO] (ViaProxy) [AUTH] (127.0.0.1:56334 | ConnectionTest) Filling player data
+[22:29:50] [Netty EPOLL Client IO #5/INFO] (ViaProxy) [SESSION] (127.0.0.1:56334 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[22:29:50] [Netty EPOLL Client IO #5/INFO] (ViaProxy) [SESSION] (127.0.0.1:56334 | ConnectionTest) Configuration finished! Switching to PLAY state
+[22:30:06] [Netty EPOLL Client IO #5/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:56334 | ConnectionTest) Connection closed
+[22:30:42] [ForkJoinPool.commonPool-worker-13/INFO] (ViaProxy) [CONNECT] (127.0.0.1:53120 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
+[22:30:42] [Netty EPOLL Server Child IO #6/INFO] (ViaProxy) [AUTH] (127.0.0.1:53120 | ConnectionTest) Filling player data
+[22:30:42] [Netty EPOLL Client IO #6/INFO] (ViaProxy) [SESSION] (127.0.0.1:53120 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[22:30:42] [Netty EPOLL Client IO #6/INFO] (ViaProxy) [SESSION] (127.0.0.1:53120 | ConnectionTest) Configuration finished! Switching to PLAY state
+[22:30:57] [Netty EPOLL Client IO #6/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:53120 | ConnectionTest) Connection closed
