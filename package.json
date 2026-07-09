@@ -2,14 +2,18 @@
   "name": "bot-net",
   "version": "1.0.0",
   "description": "bot-net for rick rolling people",
-  "main": "index.js",
+  "type": "module",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.ts"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "mineflayer": "^4.37.1",
     "mineflayer-pathfinder": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1"
   }
 }
