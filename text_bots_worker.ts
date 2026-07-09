@@ -1,13 +1,16 @@
-import mineflayer from "mineflayer"
+import mineflayer from 'mineflayer';
+import { readTextToLineObjects } from './readTextToLineObjects.ts';
+
+type MineflayerBot = any; 
 console.log("Initializing bot engine...");
 
 const bot = mineflayer.createBot({
   host: '127.0.0.1', // Ensure this points to your running ViaProxy or server
   port: 25568,        // Change to 25565 if connecting directly without proxy
   username: 'ConnectionTest',
-  version: '1.21.11'   // Keep 1.21.1 if routing through ViaProxy
-});
-
+  version: '1.21.11'   // Keep 1.21.11 if routing through ViaProxy
+}
+);
 // This listener hooks into the network event loop and keeps Node.js alive
 let clearToSpawnDirectly = false;
 
@@ -15,7 +18,7 @@ bot.once('login', () => {
   console.log("[Network] Handshake complete. Monitoring server auth prompts...");
   
   // Listen directly to raw chat packets from the server before spawning
-  bot.on('message', (jsonMsg) => {
+  bot.on('message', (jsonMsg:any) => {
     const serverMessage = jsonMsg.toString().toLowerCase();
 
     // Check if the server is prompting a new user to register
@@ -45,21 +48,49 @@ bot.once('login', () => {
 // The core operational block triggers automatically once authentication passes
 bot.once('spawn', () => {
   bot.chat('yall need to imporve your server protection');
+  bot.chat("who cares");
   // Initialize your automated background routines here
   startSurvivalRoutines(bot);
-  setTimeout(() => {
-    bot.chat('yall need to imporve your server protection');
-    console.log("[Packet Log] Broadcast message sent safely.");
-  }, 1000);
 });
 
-function startSurvivalRoutines(bot:mineflayer.Bot) {
-  // Keep the bot safely online for 15 seconds, then quit the test session
-  setTimeout(() => {
-    console.log("Session complete. Terminating connection cleanly...");
-    bot.quit();
-  }, 15000);
+function startSurvivalRoutines(bot: any) {
+  console.log("func work");
+  
+  const lines: any[] = readTextToLineObjects('input.txt');
+  let index = 0;
+  
+  function printNextLine() {
+    if (index < lines.length) {
+      const currentPayload = lines[index];
+      
+      if (currentPayload) {
+        const textToSend = typeof currentPayload === 'object' ? currentPayload.line : currentPayload;      
+        bot.chat(`[Bot] ${textToSend}`);
+        console.log(`[Minecraft Send Log] Typed line: ${textToSend}`); 
+      } 
+      
+      index++; 
+      setTimeout(printNextLine, 1000); // 1-second delay per line
+    } else {
+      // FIX: The song is completely finished! Trigger a clean, safe exit sequence
+      console.log(`[Routines] Finished printing all ${lines.length} lines. Initiating shutdown...`);
+      
+      // Send a final message, then wait 500ms for the packet buffer to flush before quitting
+      bot.chat("[Bot] Video Playback Complete.");
+      
+      setTimeout(() => {
+        console.log("Session complete. Terminating connection cleanly...");
+        bot.quit();
+      }, 500);
+    }
+  } 
+
+  // Remove the old 15-second setTimeout from here!
+  // It is now handled automatically in the 'else' block above when index reaches lines.length.
+
+  printNextLine(); 
 }
+
 
 // Error diagnostic handlers
 bot.on('error', (err:Error) => console.error(`[Network Error] ${err.message}`));
