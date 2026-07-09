@@ -1,82 +1,82 @@
-[22:11:30] [main/INFO] (ViaProxy) Initializing ViaProxy GUI v3.4.12 (git-ViaProxy-3.4.12:16c9b7b) (Injected using Launcher Agent)...
-[22:11:30] [main/INFO] (ViaProxy) Using java version: OpenJDK 64-Bit Server VM 25.0.3 (Ubuntu) on Linux
-[22:11:30] [main/INFO] (ViaProxy) Available memory (bytes): 8124366848
-[22:11:30] [main/INFO] (ViaProxy) Working directory: /home/dean/projects/bot-net/version-proxy
-[22:11:30] [main/DEBUG] (io.netty.util.internal.logging.InternalLoggerFactory) Using SLF4J as the default logging framework
-[22:11:30] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.level: simple
-[22:11:30] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.targetRecords: 4
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) Java version: 25
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) -Dio.netty.noUnsafe: false
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) sun.misc.Unsafe: unavailable (io.netty.noUnsafe=true by default on Java 25+)
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) maxDirectMemory: 8124366848 bytes (maybe)
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.maxDirectMemory: 8124366848 bytes
-[22:11:30] [main/DEBUG] (io.netty.util.internal.CleanerJava9) java.nio.ByteBuffer.cleaner(): unavailable
+[09:38:25] [main/INFO] (ViaProxy) Initializing ViaProxy GUI v3.4.12 (git-ViaProxy-3.4.12:16c9b7b) (Injected using Launcher Agent)...
+[09:38:25] [main/INFO] (ViaProxy) Using java version: OpenJDK 64-Bit Server VM 25.0.3 (Ubuntu) on Linux
+[09:38:25] [main/INFO] (ViaProxy) Available memory (bytes): 8124366848
+[09:38:25] [main/INFO] (ViaProxy) Working directory: /home/dean/projects/bot-frame/version-proxy
+[09:38:26] [main/DEBUG] (io.netty.util.internal.logging.InternalLoggerFactory) Using SLF4J as the default logging framework
+[09:38:26] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.level: simple
+[09:38:26] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.targetRecords: 4
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) Java version: 25
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) -Dio.netty.noUnsafe: false
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) sun.misc.Unsafe: unavailable (io.netty.noUnsafe=true by default on Java 25+)
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent0) java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) maxDirectMemory: 8124366848 bytes (maybe)
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.maxDirectMemory: 8124366848 bytes
+[09:38:26] [main/DEBUG] (io.netty.util.internal.CleanerJava9) java.nio.ByteBuffer.cleaner(): unavailable
 java.lang.UnsupportedOperationException: sun.misc.Unsafe unavailable
 	at io.netty.util.internal.CleanerJava9.<clinit>(CleanerJava9.java:70)
 	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:209)
 	at net.raphimc.viaproxy.ViaProxy.loadNetty(ViaProxy.java:315)
 	at net.raphimc.viaproxy.ViaProxy.injectedMain(ViaProxy.java:213)
 	at net.raphimc.viaproxy.ViaProxy.main(ViaProxy.java:102)
-[22:11:30] [main/DEBUG] (io.netty.util.internal.CleanerJava24Linker) java.nio.ByteBuffer.cleaner(): available
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.noPreferDirect: false
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.ignoreExpensiveClean: false
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.jfr.enabled: true
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) java.lang.invoke.VarHandle: available
-[22:11:30] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.varHandle.enabled: true
-[22:11:30] [main/DEBUG] (io.netty.util.concurrent.GlobalEventExecutor) -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
-[22:11:30] [main/DEBUG] (io.netty.util.internal.InternalThreadLocalMap) -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[22:11:30] [main/DEBUG] (io.netty.util.internal.InternalThreadLocalMap) -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[22:11:31] [Via-Mappingloader-1/INFO] (ViaVersion) Loading block connection mappings ...
-[22:11:31] [main/INFO] (ViaBackwards) Loading translations...
-[22:11:31] [main/INFO] (ViaBackwards) Registering protocols...
-[22:11:31] [main/INFO] (ViaRewind) Registering protocols...
-[22:11:31] [main/DEBUG] (io.netty.channel.MultithreadEventLoopGroup) -Dio.netty.eventLoopThreads: 16
-[22:11:31] [main/DEBUG] (io.netty.channel.nio.NioIoHandler) -Dio.netty.noKeySetOptimization: false
-[22:11:31] [main/DEBUG] (io.netty.channel.nio.NioIoHandler) -Dio.netty.selectorAutoRebuildThreshold: 512
-[22:11:31] [main/DEBUG] (io.netty.util.internal.PlatformDependent) org.jctools-core.MpscChunkedArrayQueue: unavailable
-[22:11:32] [main/DEBUG] (io.netty.channel.DefaultChannelId) -Dio.netty.processId: 90762 (auto-detected)
-[22:11:32] [main/DEBUG] (io.netty.util.NetUtil) -Djava.net.preferIPv4Stack: false
-[22:11:32] [main/DEBUG] (io.netty.util.NetUtil) -Djava.net.preferIPv6Addresses: false
-[22:11:32] [main/DEBUG] (io.netty.util.NetUtilInitializations) Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
-[22:11:32] [main/DEBUG] (io.netty.util.NetUtil) /proc/sys/net/core/somaxconn: 4096
-[22:11:32] [main/DEBUG] (io.netty.channel.DefaultChannelId) -Dio.netty.machineId: 00:d8:61:ff:fe:76:5b:4c (auto-detected)
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.numHeapArenas: 16
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.numDirectArenas: 16
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.pageSize: 8192
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxOrder: 9
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.chunkSize: 4194304
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.smallCacheSize: 256
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.normalCacheSize: 64
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.cacheTrimInterval: 8192
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.useCacheForAllThreads: false
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[22:11:32] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
-[22:11:32] [main/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.allocator.type: pooled
-[22:11:32] [main/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.threadLocalDirectBufferSize: 0
-[22:11:32] [main/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[22:11:32] [main/DEBUG] (io.netty.bootstrap.ChannelInitializerExtensions) -Dio.netty.bootstrap.extensions: null
-[22:11:32] [main/INFO] (ViaBedrock) Started resource pack HTTP server on http://127.0.0.1:36723/
-[22:11:32] [main/INFO] (ViaVersion) ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
-[22:11:32] [main/INFO] (ViaVersion) Highest supported version by the proxy: 26.2 (776)
-[22:11:32] [Via Async Task 1/INFO] (ViaVersion) You are running a development version of the plugin, please report any bugs to GitHub.
-[22:11:32] [Via-Mappingloader-5/DEBUG] (io.netty.buffer.AbstractByteBuf) -Dio.netty.buffer.checkAccessible: true
-[22:11:32] [Via-Mappingloader-5/DEBUG] (io.netty.buffer.AbstractByteBuf) -Dio.netty.buffer.checkBounds: true
-[22:11:32] [Via-Mappingloader-5/DEBUG] (io.netty.util.ResourceLeakDetectorFactory) Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1335da2b
-[22:11:32] [main/INFO] (ViaProxy) ViaProxy started successfully!
-[22:11:33] [Via Async Scheduler 0/INFO] (ViaVersion) Finished mapping loading, shutting down loader executor.
-[22:12:59] [Thread-3/INFO] (ViaProxy) Starting proxy server
-[22:12:59] [Thread-3/INFO] (ViaProxy) Binding proxy server to 0.0.0.0:25568
-[22:12:59] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
-[22:12:59] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.deleteLibAfterLoading: true
-[22:12:59] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.tryPatchShadedId: true
-[22:12:59] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.detectNativeLibraryDuplicates: true
-[22:12:59] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_648966020119124377470.so
-[22:12:59] [Thread-3/DEBUG] (io.netty.channel.kqueue.KQueue) KQueue support is not available
+[09:38:26] [main/DEBUG] (io.netty.util.internal.CleanerJava24Linker) java.nio.ByteBuffer.cleaner(): available
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.noPreferDirect: false
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.ignoreExpensiveClean: false
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.jfr.enabled: true
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) java.lang.invoke.VarHandle: available
+[09:38:26] [main/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.varHandle.enabled: true
+[09:38:26] [main/DEBUG] (io.netty.util.concurrent.GlobalEventExecutor) -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[09:38:26] [main/DEBUG] (io.netty.util.internal.InternalThreadLocalMap) -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[09:38:26] [main/DEBUG] (io.netty.util.internal.InternalThreadLocalMap) -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[09:38:26] [Via-Mappingloader-1/INFO] (ViaVersion) Loading block connection mappings ...
+[09:38:26] [main/INFO] (ViaBackwards) Loading translations...
+[09:38:26] [main/INFO] (ViaBackwards) Registering protocols...
+[09:38:26] [main/INFO] (ViaRewind) Registering protocols...
+[09:38:27] [main/DEBUG] (io.netty.channel.MultithreadEventLoopGroup) -Dio.netty.eventLoopThreads: 16
+[09:38:27] [main/DEBUG] (io.netty.channel.nio.NioIoHandler) -Dio.netty.noKeySetOptimization: false
+[09:38:27] [main/DEBUG] (io.netty.channel.nio.NioIoHandler) -Dio.netty.selectorAutoRebuildThreshold: 512
+[09:38:27] [main/DEBUG] (io.netty.util.internal.PlatformDependent) org.jctools-core.MpscChunkedArrayQueue: unavailable
+[09:38:27] [main/DEBUG] (io.netty.channel.DefaultChannelId) -Dio.netty.processId: 14557 (auto-detected)
+[09:38:27] [main/DEBUG] (io.netty.util.NetUtil) -Djava.net.preferIPv4Stack: false
+[09:38:27] [main/DEBUG] (io.netty.util.NetUtil) -Djava.net.preferIPv6Addresses: false
+[09:38:27] [main/DEBUG] (io.netty.util.NetUtilInitializations) Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[09:38:27] [main/DEBUG] (io.netty.util.NetUtil) /proc/sys/net/core/somaxconn: 4096
+[09:38:27] [main/DEBUG] (io.netty.channel.DefaultChannelId) -Dio.netty.machineId: 00:d8:61:ff:fe:76:5b:4c (auto-detected)
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.numHeapArenas: 16
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.numDirectArenas: 16
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.pageSize: 8192
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxOrder: 9
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.chunkSize: 4194304
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.smallCacheSize: 256
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.normalCacheSize: 64
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.cacheTrimInterval: 8192
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.useCacheForAllThreads: false
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[09:38:27] [main/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[09:38:27] [main/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.allocator.type: pooled
+[09:38:27] [main/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.threadLocalDirectBufferSize: 0
+[09:38:27] [main/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[09:38:27] [main/DEBUG] (io.netty.bootstrap.ChannelInitializerExtensions) -Dio.netty.bootstrap.extensions: null
+[09:38:27] [main/INFO] (ViaBedrock) Started resource pack HTTP server on http://127.0.0.1:39003/
+[09:38:27] [main/INFO] (ViaVersion) ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
+[09:38:27] [main/INFO] (ViaVersion) Highest supported version by the proxy: 26.2 (776)
+[09:38:27] [Via Async Task 1/INFO] (ViaVersion) You are running a development version of the plugin, please report any bugs to GitHub.
+[09:38:27] [Via-Mappingloader-5/DEBUG] (io.netty.buffer.AbstractByteBuf) -Dio.netty.buffer.checkAccessible: true
+[09:38:27] [Via-Mappingloader-5/DEBUG] (io.netty.buffer.AbstractByteBuf) -Dio.netty.buffer.checkBounds: true
+[09:38:27] [Via-Mappingloader-5/DEBUG] (io.netty.util.ResourceLeakDetectorFactory) Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@64a3175
+[09:38:27] [main/INFO] (ViaProxy) ViaProxy started successfully!
+[09:38:28] [Via Async Scheduler 0/INFO] (ViaVersion) Finished mapping loading, shutting down loader executor.
+[09:38:48] [Thread-3/INFO] (ViaProxy) Starting proxy server
+[09:38:48] [Thread-3/INFO] (ViaProxy) Binding proxy server to 0.0.0.0:25568
+[09:38:48] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[09:38:48] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.deleteLibAfterLoading: true
+[09:38:48] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.tryPatchShadedId: true
+[09:38:48] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.detectNativeLibraryDuplicates: true
+[09:38:48] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_6418433948395245112311.so
+[09:38:48] [Thread-3/DEBUG] (io.netty.channel.kqueue.KQueue) KQueue support is not available
 java.lang.ExceptionInInitializerError
 	at io.netty.channel.kqueue.KQueue.<clinit>(KQueue.java:38)
 	at net.raphimc.netminecraft.util.TransportType.<clinit>(TransportType.java:42)
@@ -88,46 +88,20 @@ Caused by: java.lang.IllegalStateException: Only supported on OSX/BSD
 	at io.netty.channel.kqueue.Native.loadNativeLibrary(Native.java:159)
 	at io.netty.channel.kqueue.Native.<clinit>(Native.java:76)
 	... 6 more
-[22:12:59] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) Successfully loaded the library /tmp/libnetty_transport_native_io_uring42_x86_6411354524555290134063.so
-[22:12:59] [Thread-3/DEBUG] (io.netty.channel.uring.IoUring) IoUring support is available using kernel 7.0.0-27-generic: CQE_F_SOCK_NONEMPTY_SUPPORTED=true, SPLICE_SUPPORTED=true, ACCEPT_NO_WAIT_SUPPORTED=true, ACCEPT_MULTISHOT_SUPPORTED=true, POLL_ADD_MULTISHOT_SUPPORTED=true, RECV_MULTISHOT_SUPPORTED=true, IORING_RECVSEND_BUNDLE_SUPPORTED=true, REGISTER_IOWQ_MAX_WORKERS_SUPPORTED=true, SETUP_SUBMIT_ALL_SUPPORTED=true, SETUP_CQE_MIXED_SUPPORTED=true, SETUP_CQ_SIZE_SUPPORTED=true, SETUP_SINGLE_ISSUER_SUPPORTED=true, SETUP_DEFER_TASKRUN_SUPPORTED=true, SETUP_NO_SQARRAY_SUPPORTED=true, REGISTER_BUFFER_RING_SUPPORTED=true, REGISTER_BUFFER_RING_INC_SUPPORTED=true, SEND_ZC_SUPPORTED=true, SENDMSG_ZC_SUPPORTED=true
-[22:13:52] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.maxCapacityPerThread: 4096
-[22:13:52] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.ratio: 8
-[22:13:52] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.chunkSize: 32
-[22:13:52] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.blocking: false
-[22:13:52] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.batchFastThreadLocalOnly: true
-[22:13:52] [ForkJoinPool.commonPool-worker-2/INFO] (ViaProxy) [CONNECT] (127.0.0.1:35634 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
-[22:13:52] [Netty EPOLL Server Child IO #0/INFO] (ViaProxy) [AUTH] (127.0.0.1:35634 | ConnectionTest) Filling player data
-[22:13:52] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SESSION] (127.0.0.1:35634 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
-[22:13:52] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SESSION] (127.0.0.1:35634 | ConnectionTest) Configuration finished! Switching to PLAY state
-[22:14:52] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SERVER DISCONNECT] (127.0.0.1:35634 | ConnectionTest) [0m[38;2;255;85;85mAuthentication time has expired.[0m
-[22:14:53] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:35634 | ConnectionTest) Connection closed
-[22:16:35] [ForkJoinPool.commonPool-worker-5/INFO] (ViaProxy) [CONNECT] (127.0.0.1:55284 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
-[22:16:35] [Netty EPOLL Server Child IO #1/INFO] (ViaProxy) [AUTH] (127.0.0.1:55284 | ConnectionTest) Filling player data
-[22:16:35] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [SESSION] (127.0.0.1:55284 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
-[22:16:35] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [SESSION] (127.0.0.1:55284 | ConnectionTest) Configuration finished! Switching to PLAY state
-[22:16:47] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:55284 | ConnectionTest) Connection closed
-[22:17:57] [ForkJoinPool.commonPool-worker-7/INFO] (ViaProxy) [CONNECT] (127.0.0.1:32798 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
-[22:17:57] [Netty EPOLL Server Child IO #2/INFO] (ViaProxy) [AUTH] (127.0.0.1:32798 | ConnectionTest) Filling player data
-[22:17:57] [Netty EPOLL Client IO #2/INFO] (ViaProxy) [SESSION] (127.0.0.1:32798 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
-[22:17:57] [Netty EPOLL Client IO #2/INFO] (ViaProxy) [SESSION] (127.0.0.1:32798 | ConnectionTest) Configuration finished! Switching to PLAY state
-[22:18:07] [Netty EPOLL Client IO #2/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:32798 | ConnectionTest) Connection closed
-[22:20:40] [ForkJoinPool.commonPool-worker-9/INFO] (ViaProxy) [CONNECT] (127.0.0.1:56580 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
-[22:20:40] [Netty EPOLL Server Child IO #3/INFO] (ViaProxy) [AUTH] (127.0.0.1:56580 | ConnectionTest) Filling player data
-[22:20:40] [Netty EPOLL Client IO #3/INFO] (ViaProxy) [SESSION] (127.0.0.1:56580 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
-[22:20:40] [Netty EPOLL Client IO #3/INFO] (ViaProxy) [SESSION] (127.0.0.1:56580 | ConnectionTest) Configuration finished! Switching to PLAY state
-[22:20:50] [Netty EPOLL Client IO #3/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:56580 | ConnectionTest) Connection closed
-[22:27:24] [ForkJoinPool.commonPool-worker-11/INFO] (ViaProxy) [CONNECT] (127.0.0.1:50248 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
-[22:27:24] [Netty EPOLL Server Child IO #4/INFO] (ViaProxy) [AUTH] (127.0.0.1:50248 | ConnectionTest) Filling player data
-[22:27:24] [Netty EPOLL Client IO #4/INFO] (ViaProxy) [SESSION] (127.0.0.1:50248 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
-[22:27:24] [Netty EPOLL Client IO #4/INFO] (ViaProxy) [SESSION] (127.0.0.1:50248 | ConnectionTest) Configuration finished! Switching to PLAY state
-[22:27:40] [Netty EPOLL Client IO #4/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:50248 | ConnectionTest) Connection closed
-[22:29:50] [ForkJoinPool.commonPool-worker-13/INFO] (ViaProxy) [CONNECT] (127.0.0.1:56334 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
-[22:29:50] [Netty EPOLL Server Child IO #5/INFO] (ViaProxy) [AUTH] (127.0.0.1:56334 | ConnectionTest) Filling player data
-[22:29:50] [Netty EPOLL Client IO #5/INFO] (ViaProxy) [SESSION] (127.0.0.1:56334 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
-[22:29:50] [Netty EPOLL Client IO #5/INFO] (ViaProxy) [SESSION] (127.0.0.1:56334 | ConnectionTest) Configuration finished! Switching to PLAY state
-[22:30:06] [Netty EPOLL Client IO #5/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:56334 | ConnectionTest) Connection closed
-[22:30:42] [ForkJoinPool.commonPool-worker-13/INFO] (ViaProxy) [CONNECT] (127.0.0.1:53120 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to summertech.ddns.net:25576
-[22:30:42] [Netty EPOLL Server Child IO #6/INFO] (ViaProxy) [AUTH] (127.0.0.1:53120 | ConnectionTest) Filling player data
-[22:30:42] [Netty EPOLL Client IO #6/INFO] (ViaProxy) [SESSION] (127.0.0.1:53120 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
-[22:30:42] [Netty EPOLL Client IO #6/INFO] (ViaProxy) [SESSION] (127.0.0.1:53120 | ConnectionTest) Configuration finished! Switching to PLAY state
-[22:30:57] [Netty EPOLL Client IO #6/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:53120 | ConnectionTest) Connection closed
+[09:38:48] [Thread-3/DEBUG] (io.netty.util.internal.NativeLibraryLoader) Successfully loaded the library /tmp/libnetty_transport_native_io_uring42_x86_6417014453623867344424.so
+[09:38:48] [Thread-3/DEBUG] (io.netty.channel.uring.IoUring) IoUring support is available using kernel 7.0.0-27-generic: CQE_F_SOCK_NONEMPTY_SUPPORTED=true, SPLICE_SUPPORTED=true, ACCEPT_NO_WAIT_SUPPORTED=true, ACCEPT_MULTISHOT_SUPPORTED=true, POLL_ADD_MULTISHOT_SUPPORTED=true, RECV_MULTISHOT_SUPPORTED=true, IORING_RECVSEND_BUNDLE_SUPPORTED=true, REGISTER_IOWQ_MAX_WORKERS_SUPPORTED=true, SETUP_SUBMIT_ALL_SUPPORTED=true, SETUP_CQE_MIXED_SUPPORTED=true, SETUP_CQ_SIZE_SUPPORTED=true, SETUP_SINGLE_ISSUER_SUPPORTED=true, SETUP_DEFER_TASKRUN_SUPPORTED=true, SETUP_NO_SQARRAY_SUPPORTED=true, REGISTER_BUFFER_RING_SUPPORTED=true, REGISTER_BUFFER_RING_INC_SUPPORTED=true, SEND_ZC_SUPPORTED=true, SENDMSG_ZC_SUPPORTED=true
+[09:49:26] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.maxCapacityPerThread: 4096
+[09:49:26] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.ratio: 8
+[09:49:26] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.chunkSize: 32
+[09:49:26] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.blocking: false
+[09:49:26] [Netty EPOLL Server Child IO #0/DEBUG] (io.netty.util.Recycler) -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[09:49:26] [ForkJoinPool.commonPool-worker-2/INFO] (ViaProxy) [CONNECT] (127.0.0.1:38702 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to localhost:25565
+[09:49:26] [Netty EPOLL Server Child IO #0/INFO] (ViaProxy) [AUTH] (127.0.0.1:38702 | ConnectionTest) Filling player data
+[09:49:27] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SESSION] (127.0.0.1:38702 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[09:49:27] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [SESSION] (127.0.0.1:38702 | ConnectionTest) Configuration finished! Switching to PLAY state
+[09:49:42] [Netty EPOLL Client IO #0/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:38702 | ConnectionTest) Connection closed
+[10:09:59] [ForkJoinPool.commonPool-worker-5/INFO] (ViaProxy) [CONNECT] (127.0.0.1:32942 | null) [1.21.11 <-> 26.1-26.1.2] Connecting to localhost:25565
+[10:09:59] [Netty EPOLL Server Child IO #1/INFO] (ViaProxy) [AUTH] (127.0.0.1:32942 | ConnectionTest) Filling player data
+[10:09:59] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [SESSION] (127.0.0.1:32942 | ConnectionTest) Connected successfully! Switching to CONFIGURATION state
+[10:09:59] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [SESSION] (127.0.0.1:32942 | ConnectionTest) Configuration finished! Switching to PLAY state
+[10:10:14] [Netty EPOLL Client IO #1/INFO] (ViaProxy) [DISCONNECT] (127.0.0.1:32942 | ConnectionTest) Connection closed
