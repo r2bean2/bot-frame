@@ -9,8 +9,7 @@ const bot = mineflayer.createBot({
   port: 25568,        // Change to 25565 if connecting directly without proxy
   username: 'ConnectionTest',
   version: '1.21.11'   // Keep 1.21.11 if routing through ViaProxy
-}
-);
+});
 // This listener hooks into the network event loop and keeps Node.js alive
 let clearToSpawnDirectly = false;
 
@@ -93,4 +92,4 @@ function startSurvivalRoutines(bot: any) {
 
 
 // Error diagnostic handlers
-bot.on('error', (err:Error) => console.error(`[Network Error] ${err.message}`));
+bot.on('error', (err: Error) => console.error(`[Network Error] ${err.message}`));
