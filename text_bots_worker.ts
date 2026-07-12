@@ -46,14 +46,16 @@ bot.once('login', () => {
 
 // The core operational block triggers automatically once authentication passes
 bot.once('spawn', () => {
-  bot.chat('yall need to imporve your server protection');
-  bot.chat("who cares");
   // Initialize your automated background routines here
-  startSurvivalRoutines(bot);
+  setTimeout(() => {
+    startSurvivalRoutines(bot);
+  }, 10000);
+
 });
 
 function startSurvivalRoutines(bot: any) {
   console.log("func work");
+
   
   const lines: any[] = readTextToLineObjects('input.txt');
   let index = 0;
@@ -75,7 +77,7 @@ function startSurvivalRoutines(bot: any) {
       console.log(`[Routines] Finished printing all ${lines.length} lines. Initiating shutdown...`);
       
       // Send a final message, then wait 500ms for the packet buffer to flush before quitting
-      bot.chat("[Bot] Video Playback Complete.");
+      bot.chat("[Bot] done now");
       
       setTimeout(() => {
         console.log("Session complete. Terminating connection cleanly...");
